@@ -42,5 +42,38 @@ console.log(greetings);  //template litrols
 //symbols
 let sm1 = Symbol('a');
 let sm2 = Symbol('b');
- 
 console.log(sm1 == sm2);
+
+//non primitive => objects => arrays, object, functions.
+
+//Objects
+
+//objects using key value pair.
+let obj = {}      
+console.log(obj);   //{}
+console.log(typeof(obj));   //object
+
+let user = {
+    firstname : "Navish",
+    isLoggedIn : true
+}
+user.firstname = "thakur"
+console.log(user.firstname);   //thakur
+console.log(user);    //{ firstname: 'thakur', isLoggedIn: true }
+
+//another way of declaring objects
+let student = {
+    "name" : 'navish',
+    age : 22
+}
+console.log(student["name"]);   //navish
+
+//declaring objects using new keyword
+const employee = new Object(name = "rahul", age = 23, isLoggedIn = true);
+console.log(employee);
+console.log(typeof(employee));
+
+//ARRAYS
+
+let heroes = ['a', 'b', 'c', 'd', 'e'];
+console.log(heroes[0]); //a
