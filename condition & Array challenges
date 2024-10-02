@@ -1,0 +1,83 @@
+//checking if a number is greater than another number
+
+// 1.
+let num1 = 3;
+let num2 = 8
+// console.log("regular upper code");
+
+if (num1 > num2) {
+    //console.log(`${num1} is greter than ${num2}`);
+} else {
+    // console.log(`${num1} is not greater than ${num2} `);
+    
+}
+// console.log("i am regular bottom code");
+
+
+//2. checking if a string is equal to another string.
+
+let username1 = "rahul";
+let username2 = "thakur";
+if (username1 === username2) {
+    // console.log(`${username1} is equal to ${username2}`);
+} else {
+    // console.log(`${username1} is not equal to ${username2}`);    
+}
+
+//3. checking if a variable is number or not.
+
+let score = 422;
+if ( typeof score === 'number') {
+    // console.log(`${score} is a number, move ahead !`);
+} else {
+    // console.log(`Please select a Number`);   
+}
+
+//4.check if a boolean value is true or not.
+
+let isLoggedIn = false;
+if (isLoggedIn) {
+    // console.log(`user logged in`);
+} else {
+    // console.log(`user is not logged in`); 
+}
+
+//5. checking a array whether it is empty or not
+
+let arr = []
+console.log(arr.length);
+if (arr.length == 0) {   
+    console.log(`array is empty`);
+} else {
+    console.log(`array is not empty`);
+    
+}
+
+//ARRAY CHALLENGES
+//1. one
+
+let colors = ['green', 'red', 'black', 'blue']
+ let firstElement = colors[0];
+ console.log(firstElement);
+ 
+//2. two
+
+let cities = ['London', 'NewYork', 'Washington']
+let thirdEle = cities[2];
+console.log(thirdEle);
+
+//3. change the value at second number
+let spark = ['green', 'red', 'black', 'blue']
+spark[1] = 'changedPink';
+let secEle = spark[1];
+console.log(secEle);
+
+//4. using push method
+let cityVis = ['d/shala', 'Shimla', 'Kangra']
+let addOne = cityVis.push('chandigarh');
+console.log(cityVis);
+
+//5. remove  using PoP method
+let cityWish = ['d/shala', 'Shimla', 'Kangra']
+let remLast =  cityWish.pop();
+console.log(cityWish);
